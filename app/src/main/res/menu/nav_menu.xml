@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        />
+    <item
+        android:id="@+id/menu_add_company"
+        android:title="Add Company"
+        android:icon="@drawable/ic_add_company"
+       />
+
+    <item
+        android:id="@+id/menu_std_details"
+        android:title="Student Details"
+        android:icon="@drawable/ic_std_details"
+       />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+       />
+
+
+
+</menu>

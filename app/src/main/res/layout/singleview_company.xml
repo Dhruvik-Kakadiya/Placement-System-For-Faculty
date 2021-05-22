@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/card_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/lightyellow"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/company_name_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="company name"
+            android:textSize="20sp"
+            android:visibility="visible"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/role_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="role"
+            android:visibility="visible"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tech_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="technology"
+            android:visibility="visible"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_home"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhruvik Kakadiya"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dhruvikkakadiya123@gmail.com"
+        android:layout_marginLeft="10dp"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

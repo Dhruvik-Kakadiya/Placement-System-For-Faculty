@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/card_student">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/colorlightpink">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/collage_id_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="collage ID"
+            android:textSize="16dp"
+            android:visibility="visible"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
